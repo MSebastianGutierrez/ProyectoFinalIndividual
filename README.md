@@ -26,23 +26,23 @@ El proyecto consta de un archivo y tres carpetas principales:
 
 ## 🏠 Encabezado del Sitio
 
-El encabezado del sitio incluye un logotipo o nombre del sitio y un menú de navegación. El menú de navegación utiliza la etiqueta `<nav>` y contiene una lista de enlaces que dirigen a diferentes secciones de la página.
+El encabezado del sitio incluye un logotipo o nombre del sitio y un menú de navegación. El menú de navegación utiliza la etiqueta nav y contiene una lista de enlaces que dirigen a diferentes secciones de la página.
 
 ## Navegación
 
-El menú de navegación está contenido dentro de la etiqueta <nav> y utiliza una lista desordenada (<ul>) con elementos de lista (<li>) para crear los enlaces de navegación.
+El menú de navegación está contenido dentro de la etiqueta nav y utiliza una lista desordenada con elementos de lista para crear los enlaces de navegación.
 
 ## Contenido Principal
 
-El contenido principal del sitio está dividido en varias secciones utilizando la etiqueta <section>.
+El contenido principal del sitio está dividido en varias secciones utilizando la etiqueta section.
 
 ## Pie de Página
 
-Añade un <footer> que incluye información adicional, como enlaces a redes sociales, términos y condiciones, o derechos de autor.
+Añade un footer que incluye información adicional, como enlaces a redes sociales, términos y condiciones, o derechos de autor.
 
 ## Formulario de Contacto
 
-Agrega un formulario de contacto dentro de una sección utilizando etiquetas como <form>, <input>, y <button>.
+Agrega un formulario de contacto dentro de una sección utilizando etiquetas como form, input, y button.
 
 ## Responsive Design
 
