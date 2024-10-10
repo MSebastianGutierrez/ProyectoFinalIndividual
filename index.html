@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluación Final</title>
+    <link rel="icon" href="imagen/logo.png" type="image/png">
+    <!-- CDN de Bootstraps -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <!-- 8-  Debe ser responsive  -->
+    <link rel="stylesheet" href="estilos/responsive.css">
+</head>
+<body>
+    <!-- 2- Encabezado del sitio: Usa la etiqueta <header> para incluir un 
+        logotipo o nombre del sitio y un menú de navegación (<nav>). -->
+    <header >
+        <div class="barra">
+        <a id="econtable"><img src="imagen/logo.png"  alt="logo contable"></a>
+        <!-- 3- Navegación: Dentro del <nav>, crea un menú con enlaces que 
+        dirijan a diferentes secciones de la página. Utiliza la etiqueta <ul> y <li> para crear la lista de enlaces. -->
+        <nav class="botonera">
+            <ul class="btn_cabecera">
+                <li><a href="#area1">INICIO</a></li>
+                <li><a href="#area2">ÁREAS DE ACTUACIÓN</a></li>
+                <li><a href="#area3">CONTACTO</a></li>
+                <li><a href="#area4">QUIÉNES SOMOS</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <main>
+    <!-- 4- Contenido principal:
+    Utiliza <section> para dividir el contenido en diferentes partes. Por ejemplo, puedes crear una
+    sección sobre "Nosotros", "Servicios", "Galería", etc.
+    Dentro de cada <section>, se recomienda usar <article> para dividir aún más el contenido, si
+    es necesario. -->
+        <section id="area1" > 
+            <div class="area1">
+                <div id="bloque1">
+                    <h4 class="centrar">BIENVENIDOS A</h4>
+                    <h2 class="centrar">ESTUDIO CONTABLES OCAMPO</h2>
+                    <p class="centrar"><a  href="#area1" class="btn btn-secondary">QUIENES SOMOS</a></p>
+                </div>
+            </div>
+            <!-- inicio boton dropdown BS -->
+            <div id="bloque2">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="static" data-bs-toggle="dropdown" aria-expanded="false">
+                      <img class="botonBS" src="imagen/whatsapp.svg" alt="whatsapp">
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-sm-end">
+                      <li><a class="dropdown-item" href="https://api.whatsapp.com" target="new"><img width="55px" height="55px"src="imagen/whats.png" alt="whatsapp"></a></li>
+                      <li><a class="dropdown-item" href="https://api.instagram.com" target="new"><img width="55px" height="55px"src="imagen/Inst.png" alt="instagram"></a></li>
+                      <li><a class="dropdown-item" href="https://api.facebook.com" target="new"><img width="55px" height="55px"src ="imagen/f1.png" alt="facebook"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- fin boton dropdown BS -->
+        </section>
+        <section id="area2">
+            <div class="responsiv">
+                <div class="bloque4">
+                    <div class="liquid">
+                        <p>LIQUIDACION DE SUELDOS</p>
+                    </div>
+                </div>
+                <div class="bloque4">
+                    <div class="audi">
+                        <p class="servicio2">AUDITORIA</p>
+                    </div>
+                </div>
+                <div class="bloque4">
+                    <div class="impu">
+                        <p class="servicio3">IMPUESTOS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bloque5">
+                <p>¿QUÉ SERVICIOS INCLUYEN?</p>
+            </div>
+            <!-- inicio botones BS -->
+            <!-- 9- Utilizar Flexbox (utilice este metodo en varias cajas, no solo en el bloque 6)-->  
+            <div class="bloque6">
+                <p>Liquidación de sueldos y jornales-confección de recibos-UOM, UOCRA, Comercio, Sanidad, y todos los convenios colectivos de trabajo vigentes.
+                DDJJ AFIP (F931) - cargas sociales y boletas sindicales.
+                Altas y bajas de empleados en los organismos correspondientes.</p>
+                <a href="#area3"><button type="button" class="btn boton">Consultar</button></a>
+            </div>
+            <div class="bloque6">
+                <p>Declaraciones de Renta, ITBMS
+                Informes de Compra, Estructuración Fiscal, Aplicación de No Cair
+                Informe de Precios de Transferencia.Remesas al Extranjero
+                Impuesto de Inmueble, Distribución de Dividendos</p>   
+                <a href="#area3"><button type="button" class="btn boton">Consultar</button></a>
+            </div>
+            <div class="bloque6">
+                <p>Atención de monotributistas, respondables inscriptos en IVA, Sociedades, Ingresos Brutos, Convenio Multilateral.
+                Declaración anuales de impuestos a las ganancias y Bienes personales
+                Regímenes de Información y Retención.
+                Tramitación de inscripciones y bajas-obtención del CUIT y la baja del mismo.
+                Descargos AFIP: Presentación Declaraciones por Internet, y generación de los VEPS. Planes en Cuotas AFIP, ARBA y Registración Libros de IVA.</p>
+                <a href="#area3"><button type="button" class="btn boton">Consultar</button></a>
+            </div>
+            <!-- fin botones BS -->
+        </section>
+        <section id="area3">
+            <div class="bloque7">
+                <!-- inicio formulario BS -->
+                <!-- 7-Formulario de contacto: 
+                Agregar un formulario de contacto dentro de un <section> utilizando etiquetas como <form>,<input>, y <button>. -->
+                <form  action="#" class="fila">
+                    <h4>FORMULARIO DE CONTACTO</h4>
+                    <p>Escribinos para recibir nuestra ayuda</p>              
+                    <input type="text" placeholder="Nombre y apellido" required minlength="3" maxlength="50" class="form-control">
+                    <input type="email" placeholder="Correo electrónico" required class="form-control">
+                    <textarea id="" cols="30" rows="5" placeholder="Escribe tu consulta" class="form-control"></textarea>               
+                    <input type="submit" class="btn boton" value="Enviar">                
+                </form>
+                <!-- fin formulario BS -->
+            </div>
+            <div class="bloque8">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.402140954508!2d-68.84094992524628!3d-32.88753436890384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0919232235a1%3A0xcfaf8b3f2d97b84b!2sAv.%20San%20Mart%C3%ADn%201399%2C%20M5500ABA%20Mendoza!5e0!3m2!1ses-419!2sar!4v1706560920776!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+      
+        </section> 
+        <section id="area4">
+            <div class="container-fluid" id="contBS">
+                <div class="row" id="fila1">
+                    <div class="col-xl col-lg col-md col-sm" id="col1_fila1">
+                        <h4>Estudio Contable </h4>
+                        <h1>Ocampo & Asociados</h1>
+                        <p>Desde hace más de 20 años, nuestro estudio establecido en la Ciudad de Mendoza,
+                          Mendoza, se ha comprometido con el éxito de tus proyectos. Nuestros principales clientes son micro y pequeñas empresas,
+                          principalmente nuevas en el mercado, es por ello que los asesoramos desde su constitución hasta la puesta en marcha de
+                          su empresa. Buscamos ser socios estratégicos con nuestros clientes, en el sentido de estar siempre disponible para cualquier
+                          tema relacionado con su negocio. Contamos con profesionales con experiencia y con un enfoque al servicio al cliente. Creemos 
+                          firmemente que nos debemos a nuestros clientes, por ello son el foco de nuestras acciones, las cuales están orientadas a satisfacer 
+                          sus necesidades con un servicio de calidad. Somos una empresa muy flexible por lo que nos adaptamos a las necesidades de nuestros clientes.
+                         </p>
+                    </div>
+                    <div class="col-xl col-lg col-md" id="col2_fila1" >
+                        <!-- 5 - Imágenes:Incluye imágenes relevantes para el tema usando la etiqueta <img>. 
+                        No te olvides del atributo alt. -->
+                        <img src="imagen/foto1.jpg" class="img-fluid " alt="foto">
+                    </div>
+                </div>
+                <div class="row" id="fila2">
+                    <div class="col-xl col-md" id="col1_fila2" >
+                        <!-- Inicio de pestañas de navegación BS -->
+                          <nav>
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                              <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Servicios de Contabilidad General</button>
+                              <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Asesoría Tributaria Permanente</button>
+                              <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Reorganización Empresarial</button>
+                              <a href="#area3"><button class="nav-link" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-disabled" type="button" role="tab" aria-controls="nav-disabled" aria-selected="false" enable>Consultar</button></a>
+                            </div>
+                          </nav>
+                          <div class="tab-content" id="pills-tabContent" class="texto2">
+                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">El servicio contable parte desde la asignación de códigos de cuentas, digitación de transacciones comerciales, procesamiento de datos y análisis de todos los registros -en nuestras instalaciones o en las oficinas de nuestros clientes- hasta la confección e interpretación de los estados financieros finales, para así tomar decisiones oportunamente.
+                                Los estados financieros se elaboran de acuerdo con las normas internacionales de contabilidad. Esta asesoría contable se dirige a toda la organización para la creación de controles contables, administrativos y tributarios que actualicen la información del cliente. Lo que Contabilidad Inteligente espera es que el cliente no tenga que asumir costos elevados por contratar trabajadores en estas distintas áreas, sino por el contrario, que ahorren costos al contar
+                                con un equipo de especialistas que siempre tenga actualizada su contabilidad y la información tributaria en base a la ley.</div>
+                            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">Estar bien asesorado condiciona en gran parte el resultado de las operaciones de una empresa. En función a esto, con nuestra propuesta de asesoría tributaria nos comprometemos a brindar un servicio de la más alta calidad. Desde nuestra experiencia, hemos atendido y continuamos atendiendo a empresas nacionales y extranjeras, buscando constantemente que 
+                                su empresa se encuentre en condiciones óptimas frente a la administración fiscal, evitando contingencias tributarias que le generen pérdida de dinero.</div>
+                            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">El servicio incluye una profunda evaluación de la organización societaria y la administración contable y tributaria, en función a las actuales normas legales y su cumplimiento eficiente para los intereses de la empresa, evitando riesgos o contingencias.
+                                Adicionalmente, analizamos los procesos relevantes en la producción, mantención comercial y administrativa, con el fin de detectar cuellos de botella, duplicidades, descalces o brechas relacionadas al presupuesto o metas propuestas.</div>
+                        <!-- fin de pestañas de navegación BS -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--6- Pie de pagina: Añade un <footer> que incluya información adicional, 
+    como enlaces a redes sociales, términosy condiciones, o derechos de autor.-->
+    <footer>
+        <div class="izquierda">
+            <div id="firma" class="pie">&copyEstudio Contable Nadin Ocampo</div>
+            <div id="info" class="pie">OFICINA Av. San Martin 1399,piso 3, oficina 3, Mendoza</div>
+        </div>
+        <div class="derecha">
+        <nav>
+            <ul class="btn_redes1">
+                <li><a href="https://www.facebook.com/" target="new"><img src="imagen/f1.png" class="imagenes" alt="facebook PNG" ></a></li>
+                <li><a href="https://www.intagram.com" target="new"><img src="imagen/Inst.png" class="imagenes" alt="instagram PNG"></a></li>
+                <li><a href="https://api.whatsapp.com" target="new"><img src="imagen/whats.png" class="imagenes" alt="whatsapp PNG"></a></li>
+            </ul>
+        </nav>
+        </div>
+    </footer>
+    <!-- JS booptraps -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
