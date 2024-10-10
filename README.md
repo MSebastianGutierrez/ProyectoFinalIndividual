@@ -1,7 +1,7 @@
 # 🌐 Proyecto final Indivual
 ## 📜 Descripción
 
-Este proyecto es un sitio web básico creado utilizando HTML y CSS. La estructura del sitio incluye un encabezado con un logotipo o nombre del sitio, un menú de navegación, varias secciones de contenido principal, imágenes relevantes, un pie de página y un formulario de contacto. El sitio es completamente responsivo y utiliza Flexbox para el diseño.
+Este proyecto es un sitio para un estudio contable creado utilizando HTML, CSS y Bootstraps . La estructura del sitio incluye un encabezado con un logotipo del cliente, un menú de navegación, varias secciones de contenido principal, imágenes, un pie de página y un formulario de contacto. El sitio es completamente responsivo y utiliza Flexbox y Boostraps para el diseño.
 
 ## 📚 Tabla de Contenidos
 
