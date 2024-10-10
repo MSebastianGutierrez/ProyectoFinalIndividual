@@ -28,26 +28,34 @@ El proyecto consta de un archivo y tres carpetas principales:
 
 El encabezado del sitio incluye un logotipo o nombre del sitio y un menú de navegación. El menú de navegación utiliza la etiqueta nav y contiene una lista de enlaces que dirigen a diferentes secciones de la página.
 
-## Navegación
+## 🗺️ Navegación
 
 El menú de navegación está contenido dentro de la etiqueta nav y utiliza una lista desordenada con elementos de lista para crear los enlaces de navegación.
 
-## Contenido Principal
+## 📄 Contenido Principal
 
 El contenido principal del sitio está dividido en varias secciones utilizando la etiqueta section.
 
-## Pie de Página
+## 🖼️ Imágenes
+
+Incluye imágenes relevantes para el tema utilizando la etiqueta <img>. No te olvides del atributo alt para mejorar la accesibilidad.
+
+## 📄 Pie de Página
 
 Añade un footer que incluye información adicional, como enlaces a redes sociales, términos y condiciones, o derechos de autor.
 
-## Formulario de Contacto
+## 📧 Formulario de Contacto
 
 Agrega un formulario de contacto dentro de una sección utilizando etiquetas como form, input, y button.
 
-## Responsive Design
+## 📱 Responsive Design
 
 El sitio es completamente responsivo y se adapta a diferentes tamaños de pantalla.
 
-## Flexbox
+## 🎨 Flexbox
 
 Utiliza Flexbox en el CSS para el diseño y la alineación de los elementos.
+
+## 🚀 Deploy
+
+El sitio ha sido desplegado y está disponible en URL del sitio desplegado.
