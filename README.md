@@ -58,4 +58,4 @@ Utiliza Flexbox en el CSS para el diseño y la alineación de los elementos.
 
 ## 🚀 Deploy
 
-El sitio ha sido desplegado y está disponible en URL del sitio desplegado.
+El sitio ha sido desplegado y está disponible en (https://msebastiangutierrez.github.io/ProyectoFinalIndividual/).
