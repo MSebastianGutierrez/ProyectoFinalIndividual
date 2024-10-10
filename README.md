@@ -38,7 +38,7 @@ El contenido principal del sitio está dividido en varias secciones utilizando l
 
 ## Pie de Página
 
-Añade un <footer> que incluya información adicional, como enlaces a redes sociales, términos y condiciones, o derechos de autor.
+Añade un <footer> que incluye información adicional, como enlaces a redes sociales, términos y condiciones, o derechos de autor.
 
 ## Formulario de Contacto
 
