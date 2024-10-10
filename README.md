@@ -24,15 +24,3 @@ El proyecto consta de dos archivos principales:
 ## 🏠 Encabezado del Sitio
 
 El encabezado del sitio incluye un logotipo o nombre del sitio y un menú de navegación. El menú de navegación utiliza la etiqueta `<nav>` y contiene una lista de enlaces que dirigen a diferentes secciones de la página.
-
-```html
-<header>
-  <h1>Nombre del Sitio</h1>
-  <nav>
-    <ul>
-      <li><a href="#nosotros">Nosotros</a></li>
-      <li><a href="#servicios">Servicios</a></li>
-      <li><a href="#galeria">Galería</a></li>
-    </ul>
-  </nav>
-</header>
